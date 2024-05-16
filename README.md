@@ -6,16 +6,17 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Define the Function: Start by defining the function copy that takes two parameters: fname and newfile.
 ### Step 2: 
- 
+Open the Source File: Use the open() function to open the source file (fname) in read mode. Use a context manager (with statement) to ensure that the file is properly closed after reading.
 ### Step 3: 
-
+Open the Destination File: Similarly, open the destination file (newfile) in write mode. Again, use a context manager to ensure proper file handling.
 ### Step 4:  
-
+Read Data from Source File: Use the read() method to read the contents of the source file (fp) and store it in a variable (data).
 ### Step 5: 
-
+Write Data to Destination File: Use the write() method to write the contents of the data variable to the destination file (fp1). This effectively copies the contents of the source file to the destination file.
 ### Step 6: 
+Close Files: Close both files using the context managers to ensure that all resources are properly released.
 
 ## PROGRAM:
 ```
